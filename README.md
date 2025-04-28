@@ -7,14 +7,20 @@ Artifactum is a smart contract for minting free ERC-721 Non-Fungible Tokens (NFT
 Free Minting: No Ether required to mint tokens.
 
 Max Token Supply: A total of 5 NFTs can be minted, with a check to prevent exceeding this limit.
+
 Metadata on IPFS: Each NFT is linked to a metadata file on IPFS, containing attributes like image, description, and more.
+
 Pause Mechanism: The contract can be paused by the owner to prevent minting in case of emergencies or updates.
+
 Owner Withdraw: The contract owner can withdraw any Ether (if applicable) in the contract.
 
 ## Contract Functions:
 mint(): Allows users to mint 1 NFT per transaction. (Free, no cost involved)
+
 tokenURI(uint256 tokenId): Returns the URI for the token metadata, pointing to the IPFS location.
+
 setPaused(bool val): Allows the owner to pause or unpause the contract.
+
 withdraw(): Allows the owner to withdraw any Ether from the contract.
 
 ### Notes:
