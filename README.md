@@ -28,4 +28,5 @@ ERC-721: Standard for creating NFTs on the Ethereum blockchain.
 
 IPFS Integration: Metadata and media files (e.g., images) are stored and referenced using IPFS for decentralized storage.
 
-Verification Link:
+Verification Link: https://sepolia.etherscan.io/address/0xa6D0BDF1A827515DdA8F5D221dBE9e9A0dADD006#code
+
